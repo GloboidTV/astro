@@ -4,7 +4,7 @@ import qs from "qs";
 import Layout from "../layouts/Layout.astro";
 import BlogGrid from "../components/BlogGrid.astro";
 
-let url = import.meta.env.STRAPI_URL + "/api/posts";
+let url = "https://raw.githubusercontent.com/GloboidTV/astro/main/posts.json";
 
 const query = qs.stringify({
   populate: {
