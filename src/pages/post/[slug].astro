@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout.astro";
 import SingleBlogItem from "../../components/SingleBlogItem.astro";
 
 export async function getStaticPaths() {
-  let url = "https://raw.githubusercontent.com/GloboidTV/astro/main/posts.json";
+  let url = "https://raw.githubusercontent.com/GloboidTV/astro/main/posts.json?token=GHSAT0AAAAAACUZOFDYCSJDRH2EXN2DUCBCZU5LQPA";
 
   const query = qs.stringify({
   populate: {
