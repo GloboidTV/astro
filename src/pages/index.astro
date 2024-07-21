@@ -3,7 +3,7 @@ import qs from "qs";
 
 import Layout from "../layouts/Layout.astro";
 import BlogGrid from "../components/BlogGrid.astro";
-
+export const prerender = true;
 let url = "https://raw.githubusercontent.com/GloboidTV/astro/main/posts.json";
 
 const query = qs.stringify({
